@@ -19,7 +19,7 @@
     "export"
   ],
   "author": "yuxl",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/forthealllight/esbuild-plugin-named-exports/issues"
   },

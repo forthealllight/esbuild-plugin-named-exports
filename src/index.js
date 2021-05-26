@@ -47,7 +47,7 @@ const cjs_to_esm_plugin = {
       build.onLoad({ filter: /.*/, namespace: 'c2e' }, async args => {
         let keys = await getExports(args.path);
         const path = JSON.stringify(args.path)
-        const resolveDir = __dirname
+        const resolveDir = process.cwd()
         return { contents: `export { ${keys} } from ${path}`, resolveDir }
       })
     },

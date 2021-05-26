@@ -1,0 +1,34 @@
+{
+  "name": "esbuild-plugin-named-exports",
+  "version": "1.0.0",
+  "description": "a esbuild plugin to reexport named exports",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup --config",
+    "deploy": "npm run rollup & npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forthealllight/esbuild-plugin-named-exports.git"
+  },
+  "keywords": [
+    "esbuild",
+    "reexport",
+    "named",
+    "export"
+  ],
+  "author": "yuxl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forthealllight/esbuild-plugin-named-exports/issues"
+  },
+  "homepage": "https://github.com/forthealllight/esbuild-plugin-named-exports#readme",
+  "dependencies": {
+    "cjs-module-lexer": "^1.2.1",
+    "enhanced-resolve": "^5.8.2",
+    "rollup": "^2.48.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "util": "^0.12.3"
+  }
+}

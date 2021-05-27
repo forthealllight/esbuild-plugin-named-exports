@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-named-exports",
-  "version": "3.0.1",
+  "version": "3.0.3",
   "description": "a esbuild plugin to reexport named exports",
   "main": "./dist/index.js",
   "scripts": {

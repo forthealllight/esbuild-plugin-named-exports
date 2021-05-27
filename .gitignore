@@ -22,7 +22,6 @@ node_modules/
 .eslintcache
 .sonarlint
 
-dist/
 coverage/
 release/
 output/

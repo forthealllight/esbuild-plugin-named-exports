@@ -35,7 +35,7 @@ async function getExports(modulePath) {
       return exports.join(', ')
     } catch (e) {
       console.log(e)
-      return '*'
+      return 'default'
     }
 }
 const cjs_to_esm_plugin = {
